@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
     <title>Horoscope</title>
   </head>
   <body>
     <header><h1>Horoscope</h1></header>
-    <form id='input-form' action="./horoscope.html" method:"GET">
+    <form id='input-form' class="form-class" action="./horoscope.html" method:"GET">
       <label for="firstName">First name :</label>
       <input type="text" id="firstName" name="firstName" />
-      <p id="firstError"></p>
+      <p id="firstError" class="classError"></p>
       <label for="lastName">Last name :</label>
       <input type="text" id="lastName" name="lastName" r/>
-      <p id="lastError"></p>
+      <p id="lastError" class="classError"></p>
       <label for="starSigns">Choose your star sign :</label>
       <select name="starSigns" id="starSigns" required>
         <option value="Aries">Aries</option>
